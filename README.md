@@ -1,3 +1,6 @@
 # Coronavirus analysis
 
-This repo analyzes the activity of coronavirus hashtags on twitter.
+This repo analyzes the activity of coronavirus related hashtags on twitter, in which we scanned all geotagged tweets sent in 2020 to monitor the spread of coronavirus on social media. By using a MapReduce approach, I was able to work with a large-scale dataset and analyze its information which contains multilingual text, specifically, observe the location that the tweet is sent from and the language its written in. I learned to use a shell script that runs all files in a folder and the nohup command which ensures that the script runs even when I am disconnected to my server. By checking the output file of nohup, I was also able to fix come code errors that I did not notice in my script and python files.
+
+By visualizing the outcome, we get to know that 422394 tweets tagged with coronavirus is written in English and 225402 are sent from the United States, which clearly shows the popularity of discussion in a country that’s severely influenced by the disease. On the other hand, there is only one tweet sent in countries such as Anguilla and Eritrea. Khmer, the official language of Cambodia is the only language that has one tweet sent. It can reflect a lot of information, such as the usage of twitter in different countries.
+
